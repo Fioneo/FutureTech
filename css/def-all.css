@@ -571,7 +571,7 @@
         display: flex;
         font-size: 12px;
         padding-right: 40px;
-        background-image: url(/img/header/newsletter_img.svg);
+        background-image: url(../img/header/newsletter_img.svg);
         background-repeat: no-repeat;
         background-size: 24px;
         background-position: right center;

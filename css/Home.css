@@ -885,7 +885,6 @@ button:hover:not(.header__button) {
         display: flex;
         gap: 100px;
         padding: 80px 80px;
-        border-top: 1px solid var(--color-dark-15);
     }
     .one-two_block {
         display: flex;
@@ -1244,10 +1243,12 @@ button:hover:not(.header__button) {
         border-left: 0;
     }
     .main-sec-priorities_group:first-child, .main-sec-priorities_group:last-child {
-        padding: 0;
         border-right: 0;
         border-left: 0;
         padding: 30px 0;
+    }
+    .main-sec-priorities_group:last-child {
+        border-bottom: 0;
     }
     .main-sec-priorities_group:not(:last-child) {
         border-right: 0;
