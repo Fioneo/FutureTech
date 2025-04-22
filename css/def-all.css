@@ -133,6 +133,8 @@
     color: var(--absolute-white);
     background-color: var(--color-dark-20);
     padding: 6px 10px;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
 }
 .revolution-info_name {
@@ -253,6 +255,8 @@
     font-size: 18px;
     line-height: 130%;
     color: var(--color-dark-40);
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
     border-radius: 8px;
 }
